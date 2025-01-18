@@ -1,0 +1,60 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+button:active {
+    background-color: #3e8e41; /* Even darker green on active */
+    transform: scale(1); /* Reset size */
+}
+
+/* Style the score, result, and winner sections */
+#score {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#result {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #e8f5e9; /* Light green background */
+}
+
+#winner {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d32f2f; /* Red text for the winner */
+    margin-top: 20px;
+}
